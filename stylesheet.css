@@ -1,0 +1,105 @@
+body{
+    background-color: #f5f5f5
+}
+
+h1{
+	color: #A72020;
+}
+.profile-card{
+	height:600px;
+	width:700px;
+	margin: 0 auto;
+	border-radius: 15px;
+}
+.profile-card .card-header{
+	background: #2ECA7F;
+	border-radius: 15px 15px 0 0 ;
+	padding: 40px 30px;
+}
+.profile-card .card-header h2{
+	color: white;
+}
+.profile-card .card-header p{
+	color: white;
+}
+.profile-card .card-body{
+    
+    }
+
+.shadow{
+        box-shadow: 0px 15px 25px 0px rgba(0, 0, 0, 0.5);
+    }
+.padding{
+        padding: 20px; 
+    }
+    
+/* contrl/command + / */
+/*#1*/
+.col-left{
+	float: left;
+	width: 50%;
+}
+.col-right{
+	float: left;
+	width: 50%;
+}
+.clear{
+	clear:both;
+}
+
+
+.img-wrapper{
+	width: 150px;
+	height: 150px;
+}
+.img-wrapper img{
+	width: 100%;
+	height: 100%
+
+}
+.overlay{
+	background: url('./images/main_bg.png');
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+
+
+/*
+.card-header{
+    background-color: #64BB6E
+}
+
+.profile-card .card-shadow{
+    background-color: #C55A5A
+
+}
+*/
+
+
+.info-list {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+  }
+
+  .info-list li {
+	margin: 6px 0;
+	text-align: left;
+  }
+  
+  .info-list li .title {
+	display: inline-block;
+	min-width: 120px;
+  }
+  
+  .info-list li .value {
+	display: inline-block;
+	color: #9e9e9e;
+  }
+
+  
