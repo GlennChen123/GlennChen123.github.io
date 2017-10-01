@@ -54,10 +54,17 @@
                         </div>
 
                 </div>
+
                 <div class="card-foot padding">
                     <button id="buttonContactMe">Contact me</button>
-                    <div id="myContactForm" style="display:none">
-                        <form action="/action_page.php">
+                    
+                    <div id="myContactForm" class="modal    " style="display:none">
+                        <form class = "form animate" action="/action_page.php">
+                            
+                            <div class="closeButton">
+                                    <span onclick="document.getElementById('myContactForm').style.display='none'" class="close" title="Close Modal">&times;</span>
+                            </div>
+                            
                             <label for="fname">First Name</label> <br/>
                             <input type="text" id="fname" name="firstname" placeholder="Your name.."> <br/>
                         
