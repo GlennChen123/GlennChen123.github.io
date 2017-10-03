@@ -210,7 +210,10 @@ input[type=submit]:hover {
 /* Center the image and position the close button */
 .closeButton {
     text-align: center;
-    margin: 24px 0 12px 0;
+    margin: 0 0 22px 0;
     position: relative;
 }
 
+.container {
+    padding: 16px;
+}
