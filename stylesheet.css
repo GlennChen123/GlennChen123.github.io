@@ -61,8 +61,13 @@ h1{
 
 
 .img-wrapper{
-	width: 150px;
-	height: 150px;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
+    margin-bottom: -15px;
 }
 .img-wrapper img{
 	width: 100%;
@@ -217,4 +222,9 @@ input[type=submit]:hover {
 
 .container {
     padding: 16px;
+}
+
+#submitButton {
+    background-color: #1CC01C;
+    color: white
 }
