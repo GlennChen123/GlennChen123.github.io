@@ -219,10 +219,10 @@ input[type=submit]:hover {
     position: relative;
 }
 
-
 .container {
     padding: 16px;
 }
+
 
 #submitButton {
     background-color: #1CC01C;

@@ -73,11 +73,9 @@ buttonSubmit.onclick = function print(){
     var fn = document.getElementById("fname").value;
     var ln = document.getElementById("lname").value;
     var msg = document.getElementById("message").value;
-    
     console.log(fn);
     console.log(ln);
     console.log(msg);
-    
 }
 
 //style="display:none"
