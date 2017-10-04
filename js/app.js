@@ -77,6 +77,7 @@ buttonSubmit.onclick = function print(){
     console.log(fn);
     console.log(ln);
     console.log(msg);
+    
 }
 
 //style="display:none"
