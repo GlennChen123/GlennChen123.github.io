@@ -37,8 +37,6 @@ aboutMe.onclick = function isHidden(){
 
 var myImage = document.querySelector('img'); // Or #profileImg
 
-//----
-
 myImage.onmouseover = function mOver(){
     var ghLink = document.getElementById('myGH');
     ghLink.style.display = 'block';
@@ -47,7 +45,6 @@ myImage.onmouseout = function mOut(){
     var ghLink = document.getElementById('myGH');
     ghLink.style.display = 'none';
 }
-
 
 var buttonContactMe = document.getElementById("buttonContactMe");
 
