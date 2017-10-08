@@ -17,7 +17,7 @@ h1{
 	background: #2ECA7F;
 	border-radius: 15px 15px 0 0 ;
 	padding: 40px 30px;
-	background-image: url('./images/main_bg.png');
+	background-image: url('./img/main_bg.png');
 }
 .profile-card .card-header h2{
 	color: white;
