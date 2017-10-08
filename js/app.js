@@ -37,6 +37,8 @@ aboutMe.onclick = function isHidden(){
 
 
 var myImage = document.querySelector('img'); // Or #profileImg
+
+/*
 myImage.onclick = function imgChange() {
     var mySrc = myImage.getAttribute('src');
     if(mySrc === './img/face1.png') {
@@ -45,6 +47,7 @@ myImage.onclick = function imgChange() {
       myImage.setAttribute ('src','./img/face1.png');
     }
 }
+*/
 
 myImage.onmouseover = function mOver(){
     var ghLink = document.getElementById('myGH');
