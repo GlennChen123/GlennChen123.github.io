@@ -35,7 +35,6 @@ aboutMe.onclick = function isHidden(){
   }
 
 
-
 var myImage = document.querySelector('img'); // Or #profileImg
 
 /*
